@@ -1,0 +1,35 @@
+{
+  "name": "course-app",
+  "version": "1.0.0",
+  "description": "fullstack",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "keywords": [
+    "course-app"
+  ],
+  "author": "Akhil",
+  "license": "ISC",
+  "dependencies": {
+    "@stripe/react-stripe-js": "^6.6.0",
+    "@stripe/stripe-js": "^9.7.0",
+    "bcrypt": "^6.0.0",
+    "bcryptjs": "^3.0.3",
+    "cloudinary": "^2.10.0",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "express-fileupload": "^1.5.2",
+    "jsonwebtoken": "^9.0.3",
+    "jwt-decode": "^4.0.0",
+    "mongodb": "^7.2.0",
+    "mongoose": "^9.6.2",
+    "nodemon": "^3.1.14",
+    "stripe": "^22.2.0",
+    "zod": "^4.4.3"
+  }
+}
